@@ -1,0 +1,68 @@
+# Library Management System
+
+## Project Description
+The Library Management System is a software application developed to manage library operations efficiently. It helps librarians and students manage books, issue and return records, and maintain student details digitally.
+
+---
+
+## Features
+- User Login System
+- Add New Books
+- Update Book Details
+- Delete Books
+- Search Books
+- Issue Books
+- Return Books
+- Student Record Management
+- Fine Calculation
+- Database Storage
+
+---
+
+## Technologies Used
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- PHP / Java
+
+### Database
+- MySQL
+
+---
+
+## Folder Structure
+
+library-management-system/
+│
+├── frontend/
+│   ├── index.html
+│   ├── login.html
+│   ├── style.css
+│
+├── backend/
+│   ├── dbconnect.php
+│   ├── addbook.php
+│   ├── issuebook.php
+│
+├── database/
+│   ├── librarydb.sql
+│
+├── screenshots/
+│   ├── homepage.png
+│   ├── dashboard.png
+│
+└── README.md
+
+---
+
+## Installation Steps
+
+1. Download or clone the repository
+2. Install XAMPP/WAMP server
+3. Start Apache and MySQL
+4. Import `librarydb.sql` into phpMyAdmin
+5. Place project folder inside `htdocs`
+6. Open browser and run:
