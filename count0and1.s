@@ -17,5 +17,5 @@ LOOP 		MOVS R0,R0,LSR#1
 STOP        B  STOP
 			;beginning of data area
 			AREA SRC,DATA,READWRITE
-NUM         DCD  0x00000025
+NUM         DCD  0x00000012
 			END
